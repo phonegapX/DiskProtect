@@ -1,0 +1,18 @@
+
+LIBRARY DiskLib
+
+EXPORTS
+	DiskLibWriteParamSector
+	DiskLibInitialize
+	DiskLibCheckPassword
+	DiskLibSetPassword
+	DiskLibSetProtectState
+	DiskLibGetProtectState
+	DiskLibEnableThroughWrite
+	DiskLibDisableThroughWrite
+	DiskLibCreateIndexFile
+	DiskLibRepairUpdate
+	DiskLibSnapshotUpdate
+	DiskLibCompleteUpdate
+	DiskLibPacketCheckStart
+	DiskLibPacketCheckEnd
